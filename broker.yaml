@@ -1,26 +1,20 @@
 name: 券商分流规则
-desc: 优化 富途/Moomoo/长桥 的网络连接
-# 这里的 🚀默认节点 必须与你 Stash 里的策略组名称完全一致，若不一致请自行替换，例如改成 DIRECT 或 PROXY
-argument:
-  - GROUP:🚀默认节点
+desc: 优化富途和长桥的网络连接
 
-[Rule]
-# 富途 / Moomoo
-DOMAIN-SUFFIX,futunn.com,%GROUP%
-DOMAIN-SUFFIX,futuhk.com,%GROUP%
-DOMAIN-SUFFIX,futu5.com,%GROUP%
-DOMAIN-SUFFIX,futuapi.com,%GROUP%
-DOMAIN-SUFFIX,moomoo.com,%GROUP%
-DOMAIN-SUFFIX,fututrade.com,%GROUP%
-
-# 长桥 Longbridge
-DOMAIN-SUFFIX,longbridge.cn,%GROUP%
-DOMAIN-SUFFIX,longbridge.hk,%GROUP%
-DOMAIN-SUFFIX,longbridgeapp.com,%GROUP%
-DOMAIN-SUFFIX,longbridge-ny.com,%GROUP%
-DOMAIN-SUFFIX,longbridges.com,%GROUP%
-DOMAIN-SUFFIX,lbkrs.com,%GROUP%
-DOMAIN-SUFFIX,order-connect.lbkrs.com,%GROUP%
-DOMAIN-SUFFIX,api.lbkrs.com,%GROUP%
-DOMAIN-KEYWORD,futu,%GROUP%
-DOMAIN-KEYWORD,longbridge,%GROUP%
+rules:
+  - DOMAIN-SUFFIX,futunn.com,🚀默认节点
+  - DOMAIN-SUFFIX,futuhk.com,🚀默认节点
+  - DOMAIN-SUFFIX,futu5.com,🚀默认节点
+  - DOMAIN-SUFFIX,futuapi.com,🚀默认节点
+  - DOMAIN-SUFFIX,moomoo.com,🚀默认节点
+  - DOMAIN-SUFFIX,fututrade.com,🚀默认节点
+  - DOMAIN-SUFFIX,longbridge.cn,🚀默认节点
+  - DOMAIN-SUFFIX,longbridge.hk,🚀默认节点
+  - DOMAIN-SUFFIX,longbridgeapp.com,🚀默认节点
+  - DOMAIN-SUFFIX,longbridge-ny.com,🚀默认节点
+  - DOMAIN-SUFFIX,longbridges.com,🚀默认节点
+  - DOMAIN-SUFFIX,lbkrs.com,🚀默认节点
+  - DOMAIN-SUFFIX,order-connect.lbkrs.com,🚀默认节点
+  - DOMAIN-SUFFIX,api.lbkrs.com,🚀默认节点
+  - DOMAIN-KEYWORD,futu,🚀默认节点
+  - DOMAIN-KEYWORD,longbridge,🚀默认节点
