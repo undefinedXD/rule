@@ -2,19 +2,19 @@ name: 券商分流规则
 desc: 优化富途和长桥的网络连接
 
 rules:
-  - DOMAIN-SUFFIX,futunn.com,🚀默认节点
-  - DOMAIN-SUFFIX,futuhk.com,🚀默认节点
-  - DOMAIN-SUFFIX,futu5.com,🚀默认节点
-  - DOMAIN-SUFFIX,futuapi.com,🚀默认节点
-  - DOMAIN-SUFFIX,moomoo.com,🚀默认节点
-  - DOMAIN-SUFFIX,fututrade.com,🚀默认节点
-  - DOMAIN-SUFFIX,longbridge.cn,🚀默认节点
-  - DOMAIN-SUFFIX,longbridge.hk,🚀默认节点
-  - DOMAIN-SUFFIX,longbridgeapp.com,🚀默认节点
-  - DOMAIN-SUFFIX,longbridge-ny.com,🚀默认节点
-  - DOMAIN-SUFFIX,longbridges.com,🚀默认节点
-  - DOMAIN-SUFFIX,lbkrs.com,🚀默认节点
-  - DOMAIN-SUFFIX,order-connect.lbkrs.com,🚀默认节点
-  - DOMAIN-SUFFIX,api.lbkrs.com,🚀默认节点
-  - DOMAIN-KEYWORD,futu,🚀默认节点
-  - DOMAIN-KEYWORD,longbridge,🚀默认节点
+  - DOMAIN-SUFFIX,futunn.com,PROXY
+  - DOMAIN-SUFFIX,futuhk.com,PROXY
+  - DOMAIN-SUFFIX,futu5.com,PROXY
+  - DOMAIN-SUFFIX,futuapi.com,PROXY
+  - DOMAIN-SUFFIX,moomoo.com,PROXY
+  - DOMAIN-SUFFIX,fututrade.com,PROXY
+  - DOMAIN-SUFFIX,longbridge.cn,PROXY
+  - DOMAIN-SUFFIX,longbridge.hk,PROXY
+  - DOMAIN-SUFFIX,longbridgeapp.com,PROXY
+  - DOMAIN-SUFFIX,longbridge-ny.com,PROXY
+  - DOMAIN-SUFFIX,longbridges.com,PROXY
+  - DOMAIN-SUFFIX,lbkrs.com,PROXY
+  - DOMAIN-SUFFIX,order-connect.lbkrs.com,PROXY
+  - DOMAIN-SUFFIX,api.lbkrs.com,PROXY
+  - DOMAIN-KEYWORD,futu,PROXY
+  - DOMAIN-KEYWORD,longbridge,PROXY
