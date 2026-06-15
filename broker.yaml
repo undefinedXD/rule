@@ -18,3 +18,15 @@ rules:
   - DOMAIN-SUFFIX,api.lbkrs.com,PROXY
   - DOMAIN-KEYWORD,futu,PROXY
   - DOMAIN-KEYWORD,longbridge,PROXY
+
+# === 新增 ChatGPT 分流 ===
+  - DOMAIN-SUFFIX,openai.com,PROXY
+  - DOMAIN-SUFFIX,chatgpt.com,PROXY
+  - DOMAIN-SUFFIX,oaistatic.com,PROXY
+  - DOMAIN-SUFFIX,oaiusercontent.com,PROXY
+  - DOMAIN-SUFFIX,ai.com,PROXY
+  - DOMAIN-SUFFIX,sentry.io,PROXY
+  - DOMAIN-SUFFIX,intercom.io,PROXY
+  - DOMAIN-SUFFIX,featuregates.org,PROXY
+  - DOMAIN-KEYWORD,openai,PROXY
+  - DOMAIN-KEYWORD,chatgpt,PROXY
