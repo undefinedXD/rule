@@ -30,3 +30,8 @@ rules:
   - DOMAIN-SUFFIX,featuregates.org,PROXY
   - DOMAIN-KEYWORD,openai,PROXY
   - DOMAIN-KEYWORD,chatgpt,PROXY
+
+  # 认证与安全校验依赖
+  - DOMAIN-SUFFIX,auth0.com,PROXY
+  - DOMAIN-SUFFIX,challenges.cloudflare.com,PROXY
+  - DOMAIN-SUFFIX,identrust.com,PROXY
